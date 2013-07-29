@@ -321,7 +321,7 @@ $(document).ajaxStop(function() {
 							$html +=''+
 							r[0].ru_description+
 							'';
-							//alert($html);
+							
 							$("#contentshow #content").html($html);
 							$("img").live('error', function(){
 								this.hide();
