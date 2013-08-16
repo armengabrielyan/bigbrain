@@ -28,3 +28,8 @@ a { color: #444340; }
 #Indicators { text-align: center; margin-top: 20px; }
 #Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
 #Indicators span.current{ background: #EEBF02; }
+.orange-line{
+    height: 5px;
+    background: #ff8a00;
+    clear: both;
+}
