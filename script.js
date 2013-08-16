@@ -274,8 +274,8 @@ $("#plistshow").live("pageinit", function(p) {
                         $_GET('s') + '&i=' + v.id + '">';
                 if (v.img)
                     $html += '<img src="' + $imgpath + v.img + '" />';
-                else
-                    $html += '<img src="" />';
+                //else
+                //    $html += '<img src="" />';
                 $html += '<h3>' + v.ru_title +
                         '</h3><p>' + v.ru_short_description + '</p></a></li>';
             });
