@@ -357,6 +357,7 @@ $("#forumshow").live("pageinit", function(p) {
                 return;
             $html1 += '<ul id="Gallery" class="gallery">';
             $.each(sr, function(sk, sv) {
+			if(sv.img)
                 $html1 += '<li><a href="' + $imgpath + sv.img + '"><img src="' + $imgpath + sv.img + '" /></a></li>';
             });
             $html1 += "</ul>";
