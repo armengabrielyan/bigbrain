@@ -113,6 +113,8 @@ $(document).ready(function() {
 var aj = false;
 $(document).ajaxStart(function() {
     //aj = true;
+}).ajaxError(function(){
+    alert('Проверьте интернет подключение');
 });
 $('*').live('pageshow', function() {
     if (aj)
