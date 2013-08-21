@@ -175,7 +175,7 @@ $("#listshow").live("pageinit", function(p) {
         $.getJSON(serviceurl + $_GET('s') + "&p[]=" + $_GET('c'), function(r) {
             $("#listshow #contentlist").html('');
             if (r == null) {
-                $("#listshow #contentlist").html('Нет данных.');
+                $("#listshow #contentlist").html('Загружается...');
                 return;
             }
             var $html = '';
@@ -220,7 +220,7 @@ $("#flistshow").live("pageinit", function(p) {
         $.getJSON(serviceurl + $_GET('s') + "&p[]=" + $_GET('c'), function(r) {
             $("#flistshow #contentlist").html('');
             if (r == null) {
-                $("#flistshow #contentlist").html('Нет данных.');
+                $("#flistshow #contentlist").html('Загружается...');
                 return;
             }
             var $html = '';
@@ -266,7 +266,7 @@ $("#plistshow").live("pageinit", function(p) {
         $.getJSON(serviceurl + $_GET('s') + "&p[]=" + $_GET('c'), function(r) {
             $("#plistshow #contentlist").html('');
             if (r == null) {
-                $("#pflistshow #contentlist").html('Нет данных.');
+                $("#pflistshow #contentlist").html('Загружается...');
                 return;
             }
             var $html = '';
@@ -314,7 +314,7 @@ $("#contentshow").live("pageinit", function(p) {
         var $html = '';
         $.getJSON(serviceurl + s + "&p[]=" + $_GET('i'), function(r) {
             if (r == null) {
-                $("#contentshow #content").html('Нет данных.');
+                $("#contentshow #content").html('Загружается...');
                 return;
             }
             $("#contentshow #titlehere").html(r[0].ru_title);
@@ -365,7 +365,7 @@ $("#forumshow").live("pageinit", function(p) {
         });
         $.getJSON(serviceurl + s + "&p[]=" + $_GET('i'), function(r) {
             if (r == null) {
-                $("#forumshow #content").html('Нет данных.');
+                $("#forumshow #content").html('Загружается...');
                 return;
             }
             $("#forumshow #titlehere").html(r[0].ru_title);
@@ -416,7 +416,7 @@ $("#reslistshow").live("pageinit", function(p) {
         $.getJSON(serviceurl + $_GET('s') + "&p[]=" + $_GET('c'), function(r) {
             $("#reslistshow #contentlist").html('');
             if (r == null) {
-                $("#pflistshow #contentlist").html('Нет данных.');
+                $("#pflistshow #contentlist").html('Загружается...');
                 return;
             }
             var $html = '';
