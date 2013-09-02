@@ -33,3 +33,25 @@ a { color: #444340; }
     background: #ff8a00;
     clear: both;
 }
+
+#home [data-role="header"], #home{
+    background: #fff !important;
+    border: none !important;
+}
+#home td{
+    text-align: center;
+    padding: 18px 25px 0 25px;
+}
+.homeThumb{
+    height: 100%;
+    width: 100%;
+    text-decoration: none !important;
+    color: #81CFB9 !important;
+}
+.homeThumb img{
+    display: inline-block;
+}
+.homeThumb p{
+    padding: 0;
+    margin: 0;
+}
