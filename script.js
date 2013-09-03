@@ -1,8 +1,8 @@
-$.mobile.defaultPageTransition = 'pop'; // pages / popup transition
+$.mobile.defaultPageTransition = 'slide'; // pages / popup transition
 $.mobile.defaultDialogTransition = 'pop'; // dialogs
 
 $(document).on('mobileinit', function() {
-    $.mobile.defaultPageTransition = 'pop'; // pages / popup transition
+    $.mobile.defaultPageTransition = 'slide'; // pages / popup transition
     $.mobile.defaultDialogTransition = 'pop'; // dialogs
 });
 // jqm.page.params.js - version 0.1
